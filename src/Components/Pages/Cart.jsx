@@ -1,5 +1,6 @@
 import { useOutletContext } from "react-router-dom";
 import Title from "../Title";
+import "../../Styles/cart.css"
 
 export default function CartPage() {
   const [cartItems, setCartItems] = useOutletContext();

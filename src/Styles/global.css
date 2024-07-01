@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "IndieFlower";
+    src: url(../Assets/IndieFlower-Regular.ttf),
+  }
+  
+  body {
+    font-family: "IndieFlower", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 4rem;
+    color: rgba(35, 29, 25, 0.75);
+    background-color: #bcf1ef;
+  }
+  
+  .page-content {
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 64px;
+  }
+  
+  h1.title {
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  #navbar > ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 0;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: rgba(35, 29, 25, 0.75);
+  }
+  
+  .store-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+  }
+  
+  p {
+      margin: 0;
+      padding: 0;
+      line-height: 160%;
+  }
+  
+  p.p-small {
+      font-size: 0.9rem;
+  }
+  
+  .primary-button {
+      margin-top: 8px;
+      height: 54px;
+      border-radius: 8px;
+      font-size: 1.0rem;
+      padding: 0px 24px;
+      font-size: 1.2rem;
+      font-family: "IndieFlower", sans-serif;
+      color: #b9cecd;
+      border: 2px solid #3ae4db;
+      background-color: #3ae4db;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+  }
+  
+  .primary-button:hover {
+      background-color: #2fb9b2;
+  }
+  
+  .secondary-button {
+      height: 54px;
+      border-radius: 8px;
+      font-size: 1.0rem;
+      padding: 0px 24px;
+      font-size: 1.2rem;
+      font-family: "IndieFlower", sans-serif;
+      color: #b9cecd;
+      border: 2px solid #3ae4db;
+      background-color: transparent;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+  }
+  
+  .secondary-button:hover {
+      background-color: #fb74c520;
+  }
+  
+  .icon-button {
+      height: 42px;
+      width: 42px;
+      padding-top: 4px;
+      font-size: 1.3rem;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.1s ease-in-out;
+  
+  }
+  
+  .icon-button:hover {
+      border-radius: 4px;
+      background-color:rgba(255, 0, 0, 0.1)
+  }
+  
+  .red {
+      color: rgba(255, 0, 0, 0.607);
+  }

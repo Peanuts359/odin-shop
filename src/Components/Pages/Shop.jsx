@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Title from "../Title";
+import "../../Styles/shop.css"
 
 export default function ShopPage() {
   const [shopProducts, setShopProducts] = useState([]);
